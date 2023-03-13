@@ -1,0 +1,221 @@
+.body {
+
+    margin: 0;
+
+
+}
+
+
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient( 150deg,#254f77 68%, rgb(0, 190, 190) 50%)/*#254f77* cor antiga*/;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*#13293d-->*/
+.rignt-login-image {
+    height: 35vh;
+
+}
+
+.rignt-login-image-mat {
+    height: 35vh;
+
+
+
+}
+
+.rignt {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-login>h1 {
+    color: #082d92;
+    font-size: 200%;
+    font-weight: 800;
+    margin: 0;
+
+}
+
+.left {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-login {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #1f6a8a;
+    border-radius: 25px;
+    box-shadow: 0px 10px 40px #000056;
+
+
+
+}
+
+.caixa-texto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px opx;
+
+}
+
+
+.caixa-texto>input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: rgb(203, 218, 238);
+    color: rgb(2, 10, 20);
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #5858b9;
+    outline: none;
+    box-sizing: border-box;
+
+}
+
+.caixa-texto>label {
+    color: rgb(203, 218, 238);
+    margin-bottom: 10px;
+
+}
+
+
+.btn_login {
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    background: rgb(36, 160, 218);
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px rgb(57, 16, 207);
+}
+
+
+
+
+
+.painel_da_tela1 {
+
+    margin: 0;
+    padding: 0;
+}
+
+.painel_tela1 {
+    background: #082d92;
+    width: 100vw;
+    height: 18vh;
+    border-radius: 2px;
+    position: relative;
+    overflow: hidden;
+
+
+
+
+
+
+}
+
+#link_cadastro{
+    text-decoration: none;
+    color: #011118;
+    font-size: 18px;
+}
+
+#link_cadastro:hover{
+    color: rgb(11, 248, 248);
+    font-size: 20px;
+
+}
+.red {
+    position: absolute;
+    width: 95px;
+    bottom: 0;
+    animation: correr 10s infinite linear;
+
+
+
+}
+
+@keyframes correr {
+
+    from {
+        right: -95px;
+    }
+
+    to {
+        right: 100%;
+    }
+}
+
+
+.container_pesquisa {
+    width: 29vw;
+    height: 4vh;
+    margin: 18px auto;
+
+
+}
+
+
+.pequisar {
+    width: 22vw;
+    height: 3vh;
+    border-radius: 10px;
+
+
+
+
+
+
+
+
+}
+
+.btn_pesq {
+    height: 3.7vh;
+    width: 6vw;
+    border-radius: 10px;
+    background: rgb(36, 160, 218);
+    /*rgb(75, 168, 245)rgb(188, 215, 236)*/
+
+}
+
+.btn_pesq:hover {
+    background: rgb(7, 193, 250)
+        /*deepskyblue*/
+    ;
+}
+
+
+.btn_login:hover {
+    background: rgb(7, 193, 250)
+        /*deepskyblue*/
+    ;
+}
